@@ -13,7 +13,8 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install OddsConverter
+    $ gem sources -a http://gems.github.com
+    $ sudo gem install rudedoc-OddsConverter
 
 ## Usage
 
