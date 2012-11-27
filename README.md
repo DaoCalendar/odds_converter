@@ -1,12 +1,11 @@
 # OddsConverter
 
-TODO: Write a gem description
-
+This is a vry small library that will convert Fractional Odds to Decimal Odds and Decimal Odds to Fractional Odds.
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'OddsConverter'
+    gem 'OddsConverter', git: "git://github.com/rudedoc/odds_converter.git"
 
 And then execute:
 
@@ -18,7 +17,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Include the gem in a project.
+OddsConvter.convert("1/1") # => 2.0
+OddsConvert.convert(2.00) # => "1/1"
 
 ## Contributing
 
