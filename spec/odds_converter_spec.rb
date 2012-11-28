@@ -21,4 +21,8 @@ describe OddsConverter do
     OddsConverter.convert(6.23).should == "5/1"
   end
 
+  it "should convert 6.26 to 11/2" do
+    OddsConverter.convert(6.26).should == "11/2"
+  end
+
 end
