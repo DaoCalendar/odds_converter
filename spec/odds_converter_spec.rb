@@ -25,4 +25,16 @@ describe OddsConverter do
     OddsConverter.convert(6.26).should == "11/2"
   end
 
+  it "should convert 1.18 to 1/6" do
+    OddsConverter.convert(1.18).should == "1/6"
+  end
+
+  it "should convert 1.19 to 1/5" do
+    OddsConverter.convert(1.19).should == "1/5"
+  end
+
+  it "should convert 1.13 to 1/8" do
+    OddsConverter.convert(1.13).should == "1/8"
+  end
+
 end

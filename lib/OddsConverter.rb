@@ -1,6 +1,9 @@
 require "OddsConverter/version"
 require 'yaml'
 
+$LOAD_PATH << File.join(File.dirname(__FILE__), '..')
+
+
 module OddsConverter
   @odds_list = YAML::load(File.open('odds_list.yml'))
 
@@ -8,7 +11,6 @@ module OddsConverter
 
   def self.convert(price)
     if price.kind_of? Float
-      price.to_f.round(2)
       result = @odds_list["odds_to_decimal"].key(price)
     elsif price.kind_of? String
       result = @odds_list["odds_to_decimal"][price]
