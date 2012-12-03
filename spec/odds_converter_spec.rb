@@ -37,4 +37,6 @@ describe OddsConverter do
     OddsConverter.convert(1.13).should == "1/8"
   end
 
+
+
 end
