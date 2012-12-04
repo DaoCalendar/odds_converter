@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a478aeb3-5381-4f20-9bf1-ebc30926b1c2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/OddsConverter/version.rb" afterPath="$PROJECT_DIR$/lib/OddsConverter/version.rb" />
-    </list>
+    <list default="true" id="a478aeb3-5381-4f20-9bf1-ebc30926b1c2" name="Default" comment="" />
     <ignored path="OddsConverter.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
