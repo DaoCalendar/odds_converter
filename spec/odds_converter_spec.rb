@@ -36,6 +36,10 @@ describe OddsConverter do
   it "should convert 1.13 to 1/8" do
     OddsConverter.convert(1.13).should == "1/8"
   end
+  
+  it "should convert 29.0 to 28/1" do
+    OddsConverter.convert(29.0).should == "28/1"
+  end
 
 
 
