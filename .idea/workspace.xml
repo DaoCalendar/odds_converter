@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a478aeb3-5381-4f20-9bf1-ebc30926b1c2" name="Default" comment="" />
+    <list default="true" id="a478aeb3-5381-4f20-9bf1-ebc30926b1c2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/OddsConverter.iml" afterPath="$PROJECT_DIR$/.idea/OddsConverter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/OddsConverter.rb" afterPath="$PROJECT_DIR$/lib/OddsConverter.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/OddsConverter/version.rb" afterPath="$PROJECT_DIR$/lib/OddsConverter/version.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/odds_converter_spec.rb" afterPath="$PROJECT_DIR$/spec/odds_converter_spec.rb" />
+    </list>
     <ignored path="OddsConverter.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +23,35 @@
     <disable_hints />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="OddsConverter.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/OddsConverter.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="49" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="odds_converter_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/odds_converter_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="12" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/OddsConverter/version.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="18" selection-start="39" selection-end="39" vertical-scroll-proportion="0.028680688">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -35,17 +68,17 @@
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/odds_list.yml" />
-        <option value="$PROJECT_DIR$/spec/odds_converter_spec.rb" />
         <option value="$PROJECT_DIR$/lib/OddsConverter.rb" />
+        <option value="$PROJECT_DIR$/spec/odds_converter_spec.rb" />
         <option value="$PROJECT_DIR$/lib/OddsConverter/version.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="454" />
-    <option name="y" value="162" />
-    <option name="width" value="980" />
-    <option name="height" value="806" />
+    <option name="x" value="511" />
+    <option name="y" value="245" />
+    <option name="width" value="1055" />
+    <option name="height" value="647" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -73,6 +106,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,7 +173,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,8 +180,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -266,14 +299,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="454" y="162" width="980" height="806" extended-state="0" />
-    <editor active="false" />
+    <frame x="511" y="245" width="1055" height="647" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26659527" sideWeight="0.67105263" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27254707" sideWeight="0.67105263" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -369,23 +402,23 @@
         <state line="16" column="19" selection-start="225" selection-end="225" vertical-scroll-proportion="0.52060735" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/OddsConverter/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="39" selection-end="39" vertical-scroll-proportion="0.021994134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/OddsConverter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="17" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.6053812">
+        <state line="7" column="49" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/odds_converter_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.8577713">
+        <state line="8" column="12" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/OddsConverter/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="39" selection-end="39" vertical-scroll-proportion="0.028680688">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,18 @@
 require 'spec_helper'
 
 describe OddsConverter do
+  it "should convert 0.0 to \"N/O\" " do
+    OddsConverter.convert(0.0).should == "N/O"
+  end
+
+  it "should convert 0.50 to \"N/O\" " do
+    OddsConverter.convert(0.50).should == "N/O"
+  end
+
+  it "should convert 1.00 to \"N/O\" " do
+    OddsConverter.convert(1.00).should == "N/O"
+  end
+
   it "should convert 2.00 to 1/1" do
     OddsConverter.convert(2.00).should == "1/1"
   end
@@ -36,11 +48,10 @@ describe OddsConverter do
   it "should convert 1.13 to 1/8" do
     OddsConverter.convert(1.13).should == "1/8"
   end
-  
+
   it "should convert 29.0 to 28/1" do
     OddsConverter.convert(29.0).should == "28/1"
   end
-
 
 
 end
