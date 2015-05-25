@@ -6,7 +6,8 @@ $LOAD_PATH << File.join(File.dirname(__FILE__), '..')
 
 module OddsConverter
   @odds_list = {"odds_to_decimal"=>{"N/O" => 0.0, 
-                                    "N/O" =>1.09, 
+                                    "1/12" => 1.08,
+                                    "1/11" =>1.09, 
                                     "1/10"=>1.1, 
                                     "1/9"=>1.11, 
                                     "1/8"=>1.12, 
